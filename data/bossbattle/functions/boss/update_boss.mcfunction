@@ -4,6 +4,6 @@ execute if score WORLD running matches 2 store result bossbar 0-0-0-0-2 value ru
 
 ## Update boss
 execute if score WORLD running matches 1 run function bossbattle:boss/sand_golem/update_boss
-execute if score WORLD running matches 1 run function bossbattle:boss/pyroclast/update_boss
+execute if score WORLD running matches 2 run function bossbattle:boss/pyroclast/update_boss
 
 execute if score WORLD running matches 1.. run scoreboard players add WORLD boss_timer 1

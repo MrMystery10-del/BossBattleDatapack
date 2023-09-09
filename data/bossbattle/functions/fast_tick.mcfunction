@@ -7,7 +7,7 @@ execute if score WORLD running matches 0 store result bossbar 0-0-0-0-1 value ru
 execute if score WORLD spawn_timer matches ..0 unless score WORLD running matches 1.. run function bossbattle:boss/spawn_boss
 
 ## Update bossbar
-execute if score WORLD running matches 1 run function bossbattle:boss/update_boss
+execute if score WORLD running matches 1.. run function bossbattle:boss/update_boss
 
 ## Check for used ability
 execute as @a if score @s clicked matches 1.. run function bossbattle:ability/ability_used
