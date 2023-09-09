@@ -1,0 +1,1 @@
+execute unless score WORLD running matches 1.. run function bossbattle:boss/sand_golem/spawn_boss
