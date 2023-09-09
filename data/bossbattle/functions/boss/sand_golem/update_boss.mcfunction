@@ -24,6 +24,6 @@ execute if score WORLD temp matches 68..100 run function bossbattle:boss/sand_go
 execute store result score WORLD temp run data get entity @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] Health
 execute if score WORLD temp matches 35..67 run function bossbattle:boss/sand_golem/stages/stage5
 execute store result score WORLD temp run data get entity @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] Health
-execute if score WORLD temp matches 0..34 run function bossbattle:boss/sand_golem/stages/stage6
+execute if score WORLD temp matches ..34 run function bossbattle:boss/sand_golem/stages/stage6
 
 execute unless entity @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] run function bossbattle:boss/sand_golem/reward
