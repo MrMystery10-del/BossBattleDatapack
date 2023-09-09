@@ -6,9 +6,9 @@ execute if score WORLD boss_timer matches 60 run playsound minecraft:entity.came
 execute if score WORLD boss_timer matches 120 run particle minecraft:ash 119 15 56 5 0 5 1 10000
 execute if score WORLD boss_timer matches 120 run playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0
 
-execute if score WORLD boss_timer matches 160 as @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run effect give @s levitation 1 10 true
-execute if score WORLD boss_timer matches 160 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 100 0
-execute if score WORLD boss_timer matches 160 as @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run particle small_flame ~ ~ ~ 0.3 0.3 0.3 1 20
+execute if score WORLD boss_timer matches 160 at @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run effect give @s levitation 1 10 true
+execute if score WORLD boss_timer matches 160 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 100 0
+execute if score WORLD boss_timer matches 160 at @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run particle small_flame ~ ~ ~ 0.3 0.3 0.3 1 20
 
 execute if score WORLD boss_timer matches 200 run summon minecraft:creeper 111 12 48 {Fuse:0,ExplosionRadius:5,ignited:1}
 execute if score WORLD boss_timer matches 220 run summon minecraft:creeper 127 12 48 {Fuse:0,ExplosionRadius:5,ignited:1}
@@ -19,20 +19,20 @@ execute if score WORLD boss_timer matches 300 run particle minecraft:ash 119 15 
 execute if score WORLD boss_timer matches 300 run playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0
 
 execute if score WORLD boss_timer matches 340 run playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0
-execute if score WORLD boss_timer matches 340 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
-execute if score WORLD boss_timer matches 340 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 340 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 340 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
 
 execute if score WORLD boss_timer matches 400 run playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0
-execute if score WORLD boss_timer matches 400 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
-execute if score WORLD boss_timer matches 400 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 400 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 400 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
 
 execute if score WORLD boss_timer matches 450 run playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0
-execute if score WORLD boss_timer matches 450 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
-execute if score WORLD boss_timer matches 450 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 450 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute if score WORLD boss_timer matches 450 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
 
-execute if score WORLD boss_timer matches 500 as @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run effect give @s levitation 1 10 true
-execute if score WORLD boss_timer matches 500 as @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 100 0
-execute if score WORLD boss_timer matches 500 as @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run particle small_flame ~ ~ ~ 0.3 0.3 0.3 1 20
+execute if score WORLD boss_timer matches 500 at @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run effect give @s levitation 1 10 true
+execute if score WORLD boss_timer matches 500 at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 100 0
+execute if score WORLD boss_timer matches 500 at @e[type=magma_cube,tag=pyroclast,limit=1] as @a[distance=..20] run particle small_flame ~ ~ ~ 0.3 0.3 0.3 1 20
 
 execute if score WORLD boss_timer matches 560 run particle small_flame 119 13 56 0.8 0.8 0.8 1 150
 execute if score WORLD boss_timer matches 560 run particle explosion_emitter 119 13 56 0 0 0 1 1
