@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] at @s run tp @s ^ ^ ^ facing entity @p feet

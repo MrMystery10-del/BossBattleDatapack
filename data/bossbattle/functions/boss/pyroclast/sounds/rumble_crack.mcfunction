@@ -1,0 +1,1 @@
+playsound minecraft:entity.camel.saddle master @s 119 13 56 100 0

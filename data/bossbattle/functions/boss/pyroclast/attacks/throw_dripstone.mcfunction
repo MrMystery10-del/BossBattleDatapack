@@ -1,0 +1,3 @@
+execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~5 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"base",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}
+execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},Time:1}

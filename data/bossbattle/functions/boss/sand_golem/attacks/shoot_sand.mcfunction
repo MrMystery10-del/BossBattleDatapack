@@ -1,0 +1,2 @@
+execute at @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] run summon marker ^ ^ ^30 {Tags:["sand_golem_projectile_direction"]}
+execute at @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] run summon block_display ~ ~ ~ {Tags:["sand_golem_projectile"],block_state:{Name:"minecraft:sand"}}

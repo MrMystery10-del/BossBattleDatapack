@@ -1,0 +1,1 @@
+execute as @e[tag=sand_golem_projectile] at @s run tp @s ^0 ^0 ^0.5 facing entity @e[tag=sand_golem_projectile_direction,limit=1] eyes

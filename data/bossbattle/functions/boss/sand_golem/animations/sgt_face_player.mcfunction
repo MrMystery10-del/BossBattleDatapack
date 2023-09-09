@@ -1,0 +1,1 @@
+execute as @e[tag=sgt] at @s run tp @s ^ ^ ^ facing entity @p

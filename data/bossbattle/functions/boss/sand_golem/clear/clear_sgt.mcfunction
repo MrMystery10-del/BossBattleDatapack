@@ -1,0 +1,1 @@
+execute as @e[tag=sgt] at @s unless entity @e[tag=tower,distance=..10] run kill @s
