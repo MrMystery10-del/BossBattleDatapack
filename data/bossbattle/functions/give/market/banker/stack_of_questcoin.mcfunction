@@ -1,0 +1,1 @@
+give @s minecraft:gold_ingot{CustomModelData:2,display:{Name:'[{"text":"Stack of Questcoin","italic":false,"color":"yellow"}]'}} 1

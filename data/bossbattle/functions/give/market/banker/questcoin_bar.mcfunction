@@ -1,0 +1,1 @@
+give @s minecraft:diamond{CustomModelData:3,display:{Name:'[{"text":"Questcoin Bar","italic":false,"color":"yellow"}]'}} 1
