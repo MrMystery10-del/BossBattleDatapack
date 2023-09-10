@@ -1,0 +1,1 @@
+effect give @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] resistance 1 4 true

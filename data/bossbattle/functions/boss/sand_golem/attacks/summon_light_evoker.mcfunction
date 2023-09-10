@@ -1,0 +1,2 @@
+execute if score WORLD temp matches 0 at @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] at @a[distance=..30,sort=nearest,limit=1] run summon evoker_fangs ~ ~ ~
+execute if score WORLD temp matches 0 at @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] at @a[distance=..30,sort=furthest,limit=1] run summon lightning_bolt ~ ~ ~

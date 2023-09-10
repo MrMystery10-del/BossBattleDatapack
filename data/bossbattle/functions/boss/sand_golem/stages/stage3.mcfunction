@@ -5,7 +5,7 @@ execute if score WORLD stage_timer matches 100.. run scoreboard players set WORL
 function bossbattle:boss/temp_variable/every_40
 function bossbattle:boss/sand_golem/animations/boss_face_player
 
-execute if entity @e[type=blaze,tag=tower] run effect give @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] resistance 1 4 true
+execute if entity @e[type=blaze,tag=tower] run function bossbattle:boss/sand_golem/attacks/invincible
 
 execute if score WORLD temp matches 0 run function bossbattle:boss/sand_golem/clear/clear_sand
 execute if score WORLD temp matches 0 run function bossbattle:boss/sand_golem/attacks/shoot_sand
