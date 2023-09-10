@@ -34,12 +34,12 @@ execute if score WORLD boss_timer matches 600 run tellraw @a {"text":"[Pyroclast
 
 execute if score WORLD boss_timer matches 630 run function bossbattle:boss/pyroclast/animations/grow
 execute if score WORLD boss_timer matches 630 run data modify entity @e[type=magma_cube,tag=pyroclast,limit=1] Size set value 6
-execute if score WORLD boss_timer matches 630 run tellraw @a {"text":"[Pyroclast] YOU","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
+execute if score WORLD boss_timer matches 630 run tellraw @a {"text":"[Pyroclast] YOU!","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
 
 execute if score WORLD boss_timer matches 660 run function bossbattle:boss/pyroclast/animations/grow
 execute if score WORLD boss_timer matches 660 run data modify entity @e[type=magma_cube,tag=pyroclast,limit=1] Size set value 7
-execute if score WORLD boss_timer matches 660 run tellraw @a {"text":"[Pyroclast] You gonna get...","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
+execute if score WORLD boss_timer matches 660 run tellraw @a {"text":"[Pyroclast] INTRUDERS.... IN MY LAIR?","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
 
 execute if score WORLD boss_timer matches 700 run function bossbattle:boss/pyroclast/animations/grow_last
 execute if score WORLD boss_timer matches 700 run data modify entity @e[type=magma_cube,tag=pyroclast,limit=1] Size set value 8
-execute if score WORLD boss_timer matches 700 run tellraw @a {"text":"[Pyroclast] BURNED FOR THIS!","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
+execute if score WORLD boss_timer matches 700 run tellraw @a {"text":"[Pyroclast] I WILL MELT YOU ALL DOWN!","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}

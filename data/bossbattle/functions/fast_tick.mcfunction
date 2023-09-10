@@ -1,7 +1,7 @@
 execute unless score WORLD running matches 1.. unless score WORLD game_stop matches 1 run scoreboard players remove WORLD spawn_timer 1
 
 ## Display stats
-execute as @a run title @s actionbar ["",{"text":"Strenght: ","bold":true,"color":"red"},{"score":{"name":"@s","objective":"strenght"},"color":"white"},{"text":"\u262f","color":"red"},{"text":" \u0020Resistance: ","bold":true,"color":"green"},{"score":{"name":"@s","objective":"resistance"},"color":"white"},{"text":"\u06de","color":"green"},{"text":" \u0020Movement:","bold":true,"color":"aqua"},{"text":" "},{"score":{"name":"@s","objective":"movement"}},{"text":"\u262e","color":"aqua"}]
+execute as @a run title @s actionbar ["",{"text":"Strength: ","bold":true,"color":"red"},{"score":{"name":"@s","objective":"strenght"},"color":"white"},{"text":"\u262f","color":"red"},{"text":" \u0020Resistance: ","bold":true,"color":"green"},{"score":{"name":"@s","objective":"resistance"},"color":"white"},{"text":"\u06de","color":"green"},{"text":" \u0020Movement:","bold":true,"color":"aqua"},{"text":" "},{"score":{"name":"@s","objective":"movement"}},{"text":"\u262e","color":"aqua"}]
 execute if score WORLD running matches 0 store result bossbar 0-0-0-0-1 value run scoreboard players get WORLD spawn_timer
 
 ## Summon boss
