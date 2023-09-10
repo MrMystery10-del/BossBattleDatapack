@@ -1,1 +1,1 @@
-playsound minecraft:entity.enderman.scream master @s 119 13 56 100 0
+playsound minecraft:entity.enderman.scream master @a 119 13 56 100 0

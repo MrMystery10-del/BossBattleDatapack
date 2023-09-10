@@ -1,1 +1,1 @@
-playsound minecraft:entity.enderman.stare master @s 119 13 56 100 0
+playsound minecraft:entity.enderman.stare master @a 119 13 56 100 0
