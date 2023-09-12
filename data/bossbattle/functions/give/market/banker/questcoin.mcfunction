@@ -1,1 +1,1 @@
-give @s gold_nugget{CustomModelData:1,display:{Name:'[{"text":"Questcoin","italic":false,"color":"yellow"}]'}} 1
+give @s minecraft:gold_nugget{CustomModelData:1,display:{Name:'[{"text":"Questcoin","italic":false,"color":"yellow"}]'}} 1
