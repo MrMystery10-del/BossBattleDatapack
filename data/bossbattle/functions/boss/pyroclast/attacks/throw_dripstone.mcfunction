@@ -1,3 +1,16 @@
-execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~5 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:20f,FallHurtMax:20,Time:1}
-execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~4 ~ {BlockState:{Properties:{thickness:"base",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:15f,FallHurtMax:15,Time:1}
-execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run summon falling_block ~ ~3 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:10f,FallHurtMax:10,Time:1}
+execute at @e[type=magma_cube,tag=pyroclast,limit=1] at @a[distance=..20] run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+
+execute positioned 114 12 51 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 114 12 61 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 124 12 61 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 124 12 51 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+
+execute positioned 127 12 56 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 119 12 48 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 111 12 56 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 119 12 64 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+
+execute positioned 132 11 42 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 132 11 69 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 105 11 70 run function bossbattle:boss/pyroclast/functions_at/dripstone_at
+execute positioned 105 11 42 run function bossbattle:boss/pyroclast/functions_at/dripstone_at

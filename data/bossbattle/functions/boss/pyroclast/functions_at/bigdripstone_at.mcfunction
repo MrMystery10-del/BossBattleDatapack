@@ -1,0 +1,4 @@
+summon falling_block ~ ~8 ~ {BlockState:{Properties:{thickness:"base",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:30f,FallHurtMax:30,Time:2}
+summon falling_block ~ ~7 ~ {BlockState:{Properties:{thickness:"base",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:25f,FallHurtMax:25,Time:2}
+summon falling_block ~ ~6 ~ {BlockState:{Properties:{thickness:"frustum",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:20f,FallHurtMax:20,Time:2}
+summon falling_block ~ ~5 ~ {BlockState:{Properties:{thickness:"tip",vertical_direction:"down"},Name:"pointed_dripstone"},HurtEntities:1b,FallHurtAmount:15f,FallHurtMax:15,Time:2}
