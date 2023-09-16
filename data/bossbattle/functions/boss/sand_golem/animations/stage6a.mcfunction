@@ -20,5 +20,3 @@ execute if score WORLD stage_timer matches 402 run tellraw @a {"text":"[Sand Gol
 execute if score WORLD stage_timer matches 460 run tellraw @a {"text":"[Sand Golem] Don't let these advantures defeat me!","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
 execute if score WORLD stage_timer matches 540 run tellraw @a {"text":"[Sand Golem] You can't run forever! I am inevitable!","bold":true,"color":"red","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
 execute if score WORLD stage_timer matches 540 run tellraw @a {"text":"The Flaming Towers have been Re-lit!","bold":true,"color":"gold","clickEvent":{"action":"run_command","value":"/kill @s"},"hoverEvent":{"action":"show_text","contents":[]}}
-execute if score WORLD stage_timer matches 540 run data modify entity @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] NoAI set value 0b
-execute if score WORLD stage_timer matches 540 as @e[type=minecraft:iron_golem,tag=sand_golem,limit=1] at @s run tp @s ^ ^ ^4

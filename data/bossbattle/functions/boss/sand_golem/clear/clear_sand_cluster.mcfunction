@@ -7,3 +7,4 @@ execute if score WORLD temp matches 0 run kill @e[type=block_display,tag=sand_go
 execute if score WORLD temp matches 0 run kill @e[type=marker,tag=sand_golem_projectile_directionL]
 execute if score WORLD temp matches 0 run kill @e[type=block_display,tag=sand_golem_projectileL]
 execute if score WORLD temp matches 0 run kill @e[type=marker,tag=sand_golem_projectile_directionR]
+execute if score WORLD temp matches 0 run kill @e[type=block_display,tag=sand_golem_projectileR]
