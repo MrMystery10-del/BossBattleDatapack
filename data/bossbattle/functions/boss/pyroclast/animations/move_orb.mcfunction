@@ -5,4 +5,4 @@ execute as @e[type=block_display,tag=magma_orb2] at @e[type=marker,tag=magma_orb
 execute as @e[type=block_display,tag=magma_orb3] at @e[type=marker,tag=magma_orb_marker3,limit=3] run tp @s ~ ~ ~
 execute as @e[type=block_display,tag=magma_orb4] at @e[type=marker,tag=magma_orb_marker4,limit=4] run tp @s ~ ~ ~
 
-execute as @e[type=block_display,tag=magma_orb] at @s run tp @s ~ ~ ~ ~10 ~
+execute as @e[type=block_display,tag=magma_orb] at @s run tp @s ~ ~ ~ ~20 ~
