@@ -8,7 +8,7 @@ function bossbattle:boss/temp_variable/every_40
 execute if entity @e[type=blaze,tag=tower] run function bossbattle:boss/sand_golem/attacks/invincible
 
 function bossbattle:boss/sand_golem/clear/clear_sand_cluster
-function bossbattle:boss/sand_golem/animations/boss_face_player
+execute if score WORLD temp matches 0 run function bossbattle:boss/sand_golem/animations/boss_face_player
 function bossbattle:boss/sand_golem/attacks/shoot_sand_cluster
 
 function bossbattle:boss/temp_variable/every_10
