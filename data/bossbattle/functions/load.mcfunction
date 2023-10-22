@@ -32,6 +32,7 @@ scoreboard objectives add 10 dummy
 scoreboard objectives add 40 dummy
 scoreboard objectives add 100 dummy
 scoreboard objectives add 250 dummy
+scoreboard objectives add gothit dummy
 scoreboard objectives add spawn_timer dummy
 scoreboard objectives add boss_timer dummy
 scoreboard objectives add game_stop dummy
