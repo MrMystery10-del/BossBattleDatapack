@@ -2,6 +2,9 @@ scoreboard players remove @s temp 1
 
 damage @p 5 hot_floor
 
+execute as @s if score @s temp matches 0 run particle explosion_emitter ~ ~ ~ 0 0 0 1 1
+execute as @s if score @s temp matches 0 run playsound entity.generic.explode master @a ~ ~ ~ 5
+execute as @s if score @s temp matches 0 run damage @a[distance=..5] 20 explosion
 execute as @s if score @s temp matches 0 run kill @e[type=block_display,tag=magma_orb_marker,distance=..1]
 execute as @s if score @s temp matches 0 run kill @s
 
