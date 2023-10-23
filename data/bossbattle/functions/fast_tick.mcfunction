@@ -13,3 +13,6 @@ execute if score WORLD running matches 1.. run function bossbattle:boss/update_b
 ## Check for used ability
 execute as @a if score @s clicked matches 1.. run function bossbattle:ability/ability_used
 execute as @a if score @s clicked matches 1.. run scoreboard players set @s clicked 0
+
+## Updated active abilitys
+function bossbattle:update/update_ability

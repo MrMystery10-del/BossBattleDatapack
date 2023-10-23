@@ -12,5 +12,4 @@ function bossbattle:update/update_protective_score
 function bossbattle:update/update_water_score
 function bossbattle:update/update_speed_score
 function bossbattle:update/update_mana
-function bossbattle:update/update_ability
 function bossbattle:update/update_main_score
